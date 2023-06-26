@@ -47,11 +47,50 @@
   .on-campus2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
-  /* #leftseparator {
-    margin-left: 10px;
-    border: 20px solid;
-    border-bottom: 10px;
-    border-left: 13px;
-    margin-right: -13px;
-} */
+  .leftseparator {
+   width:0;
+   height: 0;
+   border: solid transparent;
+   border-right: 100vw solid transparent;
+   border-bottom: 16.9vw solid white;
+   margin-top:-3.9vw;
+}
+.rightseparator {
+   width: 0;
+   height: 0;
+   border: solid transparent;
+   border-left: 100vw solid transparent;
+   border-bottom: 15.9vw solid orange;
+   margin-bottom:0vw;
+}
+.rightwhiteseparator {
+  width: 0;
+  height: 0;
+  border: solid transparent;
+  border-left: 100vw solid transparent;
+  border-bottom: 15.9vw solid white;
+  margin-bottom:0vw;
+}
+.section2 h2 {
+  background-color: orange;
+  color: white;
+  font-weight:bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section2 {
+  background-color: orange;
+  color: rgb(0, 0, 0);
+  font-weight:bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section2heading,.panel {
+  padding-bottom: 20px;
+  text-align: center;
+}
+.section3 {padding-top: 20px;
+  font-weight:bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #000;
+  text-align: center;
+}
 
