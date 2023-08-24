@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"
     />
+    <link width="80px" height="80px" rel="icon" type="image/png" href="assets/beans.png"/>
     <link rel="stylesheet" href="stylesheets/index.css" />
     <!-- Animations  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -23,25 +24,25 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#"> On Campus</a>
+              <a class="nav-link" href="#oncampus"> On Campus</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Interview Prep</a>
+              <a class="nav-link" href="#section3">Interview Prep</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Communities</a>
+              <a class="nav-link" href="#communities">Communities</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Conferences</a>
+                <a class="nav-link" href="#section4">Conferences</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Additional Resources
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="https://mypenn.upenn.edu/s/login/?startURL=%2Fs%2F" target="_blank">Network with Alumni</a>
+                <a class="dropdown-item" href="https://careerservices.upenn.edu/resources/targeted-resume/" target="_blank">Targeted Resume</a>
+                <a class="dropdown-item" href="https://careerservices.upenn.edu/resources/career-services-resume-guide/" target="_blank">Resume Guide</a>
               </div>
             </li>
           </ul>
@@ -58,7 +59,7 @@
         <img src="assets/CIS1100-115.jpg" class="w-100" />
       </div>
       <!-- Section 1 - On Campus Opportunities -->
-    <div class="pt-5" style="overflow: hidden; padding-bottom: 30px;">
+    <div id="oncampus" class="pt-5" style="overflow: hidden; padding-bottom: 30px;">
       <div class="container-fluid">
         <div class="row">
           <div class="on-campus1 col-6">
@@ -115,13 +116,13 @@
                    <br><br>Here are a few Hackathons hosted at Penn: <br>
                     <ul>
                       <li>
-                        <a href="https://femmehacks.io/">Femmehacks</a>
+                        <a href="https://femmehacks.io/" target="_blank">Femmehacks</a>
                       </li>
                       <li>
-                        <a href="https://pennapps.com/">PennApps</a>
+                        <a href="https://pennapps.com/" target="_blank">PennApps</a>
                       </li>
                       <li>
-                        <a href="  https://mlh.io/">Major League Hacking (remote)</a>
+                        <a href="  https://mlh.io/" target="_blank">Major League Hacking (remote)</a>
                       </li>
                     </ul>
                 </div>
@@ -137,8 +138,8 @@
                   <div class="accordion-body">
                   Conferences are a great way to learn about new technologies and innovations in the tech industry. Here you can learn about 
                   companies, their initiatives as well as opprtunities that they offer. It is a great way to network and be inspired. <br><br>
-                  Popular Tech Conferences can be found <a href="">here.</a><br> <br>
-                  Tech Related Talks and Events happening at Penn can be found <a href="">here.</a>
+                  Popular Tech Conferences can be found <a href="#con">here.</a><br> <br>
+                  Tech Related Talks and Events happening at Penn can be found <a href="https://events.seas.upenn.edu/calendar/month/" target="_blank">here.</a>
                 </div>
               </div>
             </div>
@@ -152,11 +153,11 @@
                 <div class="accordion-body">
                 Career Fairs are a great way to find summer internships and get to meet recruiters from various companies. There are usually a number of career fairs 
                 happening on campus during recruiting season, August - Feburary. To be notified of these 
-                fairs ensure that you have set uo your <a href="https://upenn.joinhandshake.com/login"><b>Handshake</b></a> account and selected computer science as 
+                fairs ensure that you have set uo your <a href="https://upenn.joinhandshake.com/login" target="_blank"><b>Handshake</b></a> account and selected computer science as 
                 one of your areas of interest. <br><br>
-                You can also see career fairs on the <a href="https://careerservices.upenn.edu/career-fairs/">Career Services Website</a><br>
-               <a href="https://careerservices.upenn.edu/blog/2022/09/07/top-tips-for-preparing-for-a-career-fair/"> Top Tips</a> for Preparing for a Career Fair <br>
-                To learn more about dress codes and presenting your resume, see the following <a href="https://careerservices.upenn.edu/fall-career-fair-student-faqs/#:~:text=Dress%20professionally.,in%20time%20for%20the%20event!">FAQ</a>
+                You can also see career fairs on the <a href="https://careerservices.upenn.edu/career-fairs/" target="_blank">Career Services Website</a><br>
+               <a href="https://careerservices.upenn.edu/blog/2022/09/07/top-tips-for-preparing-for-a-career-fair/" target="_blank"> Top Tips</a> for Preparing for a Career Fair <br>
+                To learn more about dress codes and presenting your resume, see the following <a href="https://careerservices.upenn.edu/fall-career-fair-student-faqs/#:~:text=Dress%20professionally.,in%20time%20for%20the%20event!" target="_blank">FAQ</a>
               </div>
             </div>
         </div>
@@ -168,53 +169,340 @@
      <!-- Section 2 - Fellowships and Communities Available to Students -->
       <!-- <div class="rightseparator"></div> -->
       
-      <div class="section2">
+      <div class="section2" id="communities">
         <h2 class="section2heading" style="padding: 25px;">Fellowships and Communities Available to Undergraduates</h2>
         <div class="container whiteportion mx-auto">
           <p class="panel">
-            <a class="btn btn-light" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">All CS Students</a>
+            <a class="btn btn-light" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="true" aria-controls="multiCollapseExample1">All CS Students</a>
             <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2"> Hispanic/Black Students in CS</button>
             <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3"> Women in CS </button>
-            <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">LGBTQ+ Students in CS</button>
+            <!-- <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">LGBTQ+ Students in CS</button> -->
           </p>
-          <div class="row" style="padding: 40px;">
-            <div class="col-6 ms-auto">
-              <div class="collapse show" id="multiCollapseExample1">
+          <div class="row" style="padding-bottom: 60px;">
+            <div class="col-12">
+              <div class="collapse show " id="multiCollapseExample1">
                 <div class="card card-body rounded-0">
-                  Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                <div class="container">
+                  <div class="row"> 
+                    <div class="col-6"> 
+                      <span><img width="50px" src="assets/computerguy.png"></span>
+                      <h3> Online Communities</h3>
+                      These communities are ususally a way 
+                      <ul>
+                        <li>Codepath</li>
+                        <li>Develop For Good</li>
+                      </ul>
+                    </div>
+                    <div class="part2 col-6">
+                      <div class="computericon"> <img width="50px" src="assets/computerguy.png"></div>
+                      <br>
+                      <h3>Fellowship/Internship Opportunities</h3>
+                      <ul> 
+                        <li> Management Leadership Tommorrow </li>
+                        <li> Uberstar Internships</li>
+                        <li> Google Summer of Code</li>
+                        <li> Google STEP</li>
+                        <li> Exlore Microsoft</li>
+                        <li> Google Bold Immesrion</li>
+                        <li> Facebook University</li>
+                        <li> MLH Fellowships</li>
+                        <li> Netflix Pathways Bootcamp (rising seniors)</li>
+                        <li> Codepath Courses (Web dev, cyber, ios, android)</li>
+                        <li> Codepath Tech Fellowships</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
                 </div>
               </div>
             </div>
-            <div class="col-6">
-              <div class="collapse show" id="multiCollapseExample2">
+            <div class="col-12">
+              <div class="collapse" id="multiCollapseExample2">
                 <div class="card card-body rounded-0">
-                  Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                  <div class="container">
+                    <div class="row"> 
+                      <div class="col-6"> 
+                        <span><img width="50px" src="assets/computerguy.png"></span>
+                        <h3> Online Communities</h3>
+                        These communities are ususally a way 
+                        <ul>
+                          <li>Colorstack</li>
+                          <li> DevColor</li>
+                          <li> Code2040</li>
+                          <li> Hack the Hood</li>
+                          <li> Black Girls in Tech</li>
+                        </ul>
+                      </div>
+                      <div class="part2 col-6">
+                        <div class="computericon"> <img width="50px" src="assets/computerguy.png"></div>
+                        <br>
+                        <h3>Fellowship/Internship Opportunities</h3>
+                        <ul> 
+                          <li> Code2040 Internship </li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-12">
               <div class="collapse" id="multiCollapseExample3">
                 <div class="card card-body rounded-0">
-                 women
+                  <div class="container">
+                    <div class="row"> 
+                      <div class="col-6"> 
+                        <span><img width="50px" src="assets/computerguy.png"></span>
+                        <h3> Online Communities</h3>
+                        These communities are ususally a way 
+                        <ul>
+                          <li>Rewriting the Code</li>
+                          <li></li>
+                        </ul>
+                      </div>
+                      <div class="part2 col-6">
+                        <div class="computericon"> <img width="50px" src="assets/computerguy.png"></div>
+                        <br>
+                        <h3>Fellowship/Internship Opportunities</h3>
+                        <ul> 
+                          <li> </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <!-- <div class="col-12">
               <div class="collapse" id="multiCollapseExample4">
                 <div class="card card-body rounded-0">
-                lgbtq
+                  <div class="container">
+                    <div class="row"> 
+                      <div class="col-6"> 
+                        <h3> Online Communities</h3>
+                        These communities are ususally a way 
+                        <ul>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+  
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         <!-- <span class="leftseparator"></span>
         <div class="rightwhiteseparator"></div> -->
         </div>
         <!-- Section 3 - How do I go about getting an Internship-->
-        <div class="section3">
-          <h2>How do I go about getting an Internship</h2>
+        <div id="section3" class="section3" style="padding-bottom: 30px;">
+          <div class="container">
+            <div class="row"> 
+              <div class="col-4 pt-5"> 
+                <h2>How do I get an Internship?</h2>
+              </div>
+              <div class="col-1"></div>
+              <div class="col-6"> 
+                <!-- Card Carousel Here -->
+                <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div id="cards" class="carousel-item active">
+                
+                        <div class="card d-block w-100">
+                          <img width="50px" height="150px" src="assets/img1.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Searching</h5>
+                            <p class="card-text"> Handshake, Github, Linkedin and Career Fairs are great places to search for Internship opportunities. 
+                              See what companies your friends and classmates have worked for, they may be able to help you get a referral.
+                            </p>
+                            <a href="https://github.com/SimplifyJobs/Summer2024-Internships" target="_blank" class="btn btn-primary">See Popular List</a>
+                          </div>
+                        </div>
+                      </div>
+                    <div id="cards" class="carousel-item">
+                     
+                      <div class="card d-block w-100">
+                        <img width="50px" height="150px"  src="assets/interview .jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Interviewing</h5>
+                          <p class="card-text"> <a href="https://leetcode.com/" target="_blank">Leetcode</a>, <a href="https://www.hackerrank.com/" target="_blank">Hackerrank,</a> <a href="https://www.algoexpert.io/product?r=ads&gad=1&gclid=Cj0KCQjw_5unBhCMARIsACZyzS3Ro25jhXxJcRvuMuZuuqekrQwxrMGXxU4hAztV2x9nZ2sYv5r28M0aAqwAEALw_wcB" target="_blank">Algoexpert</a> and <a href="https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850" target="_blank">Cracking the Coding interview <a>are great platforms to practise interview-like questions.
+                            You can prepare using mock interviews on <a href="https://www.pramp.com/dashboard#/" target="_blank">Pramp</a> and <a href="https://interviewing.io/" target="_blank">Interview.io</a></p>
+                          <a href="https://www.freecodecamp.org/news/problem-solving-and-technical-interview-prep/" target="_blank" class="btn btn-primary">Learn More Here</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="cards" class="carousel-item">
+                      <div class="card d-block w-100">
+                        <img width="50px" height="150px" src="assets/hired.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Accepting the Offer</h5>
+                          <p class="card-text">Before accepting an offer, ensure that the salary meets your basic needs and negotiate the offer, if necessay.
+                            Remember, it is unethical to renege an opportunity if a better offer is presented to you.
+                          </p>
+                          <a href="https://careerservices.upenn.edu/blog/2019/08/19/negotiating-salary/" target="_blank" class="btn btn-primary">Learn More</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+       <!-- Section 4 - TA Advise -->
+       <div class="section2" id="con">
+        <h2 class="pt-5" style="text-align: center;">Advice From Your Teaching Assitants</h2>
+        <!--Beginning of SlideShow-->
+        <div class="slideshow">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <!--start of 3 cards-->
+              <div class="row">
+              <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <p class="card-text">A</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <p class="card-text">B</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <p class="card-text">C</p>
+                
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-4">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <p class="card-text">D</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <p class="card-text">E</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <p class="card-text">F</p>
+                  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-4">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <p class="card-text">G</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <p class="card-text">H</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <p class="card-text">I</p>
+                  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        </div>
+       </div>
+       <!-- Section4 - Conferences - scrollpsy list goup -->
+       <div class="section4" id="section4">
+        <h2 class="pt-5" style="text-align: center;">Conference List</h2>
+        <div class="row">
+          <div class="col-4">
+            <ul>
+              <li>TAPIA</li>
+              <li>National Society of Black Engineers Nations Convention (NSBE) </li>
+              <li>Women Impact Tech San Francisco</li>
+              <li>Black Product Managers Conference</li>
+              <li>Latinas in Tech Summit</li>  
+              <li>Women in Product Conference (virtual)</li>         
+            </ul>
+          </div>
+          <div class="col-4">
+            <ul>
+              <li>Grace Hopper</li>
+              <li>ADCOLOR Coferences</li>
+              <li>American Indian Science and Engineering Society Conferences (AISES)</li>
+              <li>Great Minds in STEM Conferences</li>
+              <li>Lesbians Who Tech San Francisco Summit</li>
+              <li>Society For Advancement of Chicanos/Hipanics & Native Americans in Science National Diversity in STEM Coferences (SACNAS)</li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <ul>
+              <li>AfroTech Conference</li>
+              <li>Society of Hispanic Professional Engineers National Convention (SHPE)</li>
+              <li>Sistas in Sales Conferences (SIS)</li>
+              <li>National Black MBA Association Conference (NBMBAA)</li>
+              <li>Blacks In Technology Conference (BITCON)</li>
+              <li>Black Data Processing Association National Conference (BDPA)</li>
+              <li>Association of Latino Professionals For America Conference (ALPFA)</li>
+
+            </ul>
+          </div>
+        </div>
+       </div>
       <!-- Bootstrap -->
       <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"

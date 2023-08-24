@@ -38,10 +38,17 @@
     font-size: 70px;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
-  .on-campus1 {
+  .on-campus1, .section3 h2 {
     color:orange;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 70px;
+    text-align: center;
+  }
+
+  .section4 h2 {
+    color:orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
     text-align: center;
   }
   .on-campus2 {
@@ -93,4 +100,43 @@
   color: #000;
   text-align: center;
 }
+.part2 {
+  position: relative;
+}
+.computericon {
+  position:absolute;
+  right:4%
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 70%;
+  top: 50%;
+}
+#cards {
+  width: 60%;
+  height: 100%;
+  margin-left: 25%;
+}
+.carousel-item {
+  transition: 0s;
+} 
+.section4 h2 ,.section2 h2{
+  padding-bottom: 40px;
+}
+.slideshow, .section4 {
+  padding-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+} 
+.section4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-size: large;
+}
+
+
+
 
