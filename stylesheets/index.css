@@ -136,7 +136,20 @@
   font-style: normal;
   font-size: large;
 }
-
+@media only screen and (max-width: 940px) {
+  #heading {
+    font-size: xx-large;
+  }
+  #oncampus { 
+    padding-top: 50px;
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 952px) {
+  section .card {
+    width: 15rem;
+  }
+}
 
 
 
